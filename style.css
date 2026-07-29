@@ -3,3 +3,93 @@ body {
     color: #0b132a;
   background-color: #ffffff;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+}
+
+.header {
+    padding: 30px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+button {
+    border: none;
+    background: transparent;
+    font: inherit;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    width: 150px;
+    height: 54px;
+    object-fit: contain;
+}
+
+.nav-links {
+   display: flex;
+    gap: 38px;
+}
+
+.nav-links a{
+    color: #4f5665;
+}
+
+.nav-btn {
+    display: flex;
+    gap: 2rem;
+}
+
+.outline-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 150px;
+  height: 45px;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: 0.25s ease;
+}
+
+.outline-btn,.primary-button{
+  color: #f53855;
+border-width: 1.5px;
+border-style: solid;
+border-color: #f53855;
+}
+
+.outline-btn:hover{
+  
+ color: #ffffff;
+  background-color: #f53855;  
+
+}
+.Sign-in-btn{
+  color: #0b132a;
+  font-weight: 600;
+}
+
+.Sign-in-btn:hover{
+    color: #f53855;
+}
