@@ -27,6 +27,11 @@ a {
   text-decoration: none;
 }
 
+.container{
+    width: 90%;
+    margin-inline: auto;
+}
+
 
 button {
     border: none;
@@ -72,7 +77,8 @@ button {
   transition: 0.25s ease;
 }
 
-.outline-btn,.primary-button{
+.outline-btn,
+.primary-button{
   color: #f53855;
 border-width: 1.5px;
 border-style: solid;
@@ -92,4 +98,52 @@ border-color: #f53855;
 
 .Sign-in-btn:hover{
     color: #f53855;
+}
+.hero-container{
+    display: flex;
+    
+}
+.hero{
+    padding: 70px 0 90px;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.primary-button{
+      color: #ffffff;
+  background-color: #f53838;
+  box-shadow: 0 18px 30px rgba(245, 56, 56, 0.25);
+}
+
+.hero-content .primary-button{
+    width: 250px;
+  height: 60px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content h1{
+  max-width: 560px;
+  font-size: 38px;
+  line-height: 1.35;
+  font-weight: 500;
+}
+
+.hero-content p{
+  max-width: 550px;
+  margin: 25px 0 45px;
+  color: #4f5665;
+  line-height: 1.8;
+}
+
+.hero-container {
+     display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 60px;
 }
