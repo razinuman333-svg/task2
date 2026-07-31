@@ -175,3 +175,45 @@ border-color: #f53855;
     justify-content: center;
     align-items: center;
 }
+
+.ftr-section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 16px;
+    justify-content: space-between;
+}
+.ftr-points-sub{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.ftr-content{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.ftr-points{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    padding-top: 19px;
+}
+.ftr-content h2{
+    font-weight: 500;
+     font-size: 2.3rem;
+}
+.ftr-content p{
+    font-size: 1.2rem; 
+     max-width: 800px; 
+     line-height: 30px;
+     color: #202020;
+}
+.ftr-points-sub img{
+
+    width: 22px;
+     height: 22px;
+}
+.ftr-points-sub p{
+    font-size:large;
+}
