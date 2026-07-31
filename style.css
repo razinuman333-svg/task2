@@ -153,11 +153,11 @@ border-color: #f53855;
    grid-template-columns: 1fr 1fr 1fr;
    min-height: 200px;
     align-items: center;
- border-radius: 10px;
+ border-radius: 15px;
  background-color: #ffffff;
- box-shadow: 0 30px 60px rgba(13, 16, 37, 0.08);
  padding-left: 75px;
  width: 80%;
+ box-shadow: 30px 30px 60px rgba(13, 16, 37, 0.08);
      
 }
 
@@ -216,4 +216,24 @@ border-color: #f53855;
 }
 .ftr-points-sub p{
     font-size:large;
+}
+.prc-sction{
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.prc-headings h2{
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+}
+.prc-headings p{
+    color: #202020;
+    max-width: 560px;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 1.8;
+   font-size: 1.2rem;
 }
