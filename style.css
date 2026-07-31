@@ -147,3 +147,31 @@ border-color: #f53855;
     align-items: center;
     gap: 60px;
 }
+
+.stats{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   min-height: 200px;
+    align-items: center;
+ border-radius: 10px;
+ background-color: #ffffff;
+ box-shadow: 0 30px 60px rgba(13, 16, 37, 0.08);
+ padding-left: 75px;
+ width: 80%;
+     
+}
+
+.stat-img{
+     width: 55px;
+  height: 55px;
+}
+
+.stat-item{
+    display: flex;
+    gap: 25px;
+}
+.stats-dtls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
