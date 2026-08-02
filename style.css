@@ -295,3 +295,35 @@ border-color: #f53855;
    color:#d3d3d3;
     font-weight: 500; 
 } 
+.network-sec{
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin-top: 100px;
+    gap: 25px;
+}
+.network-title-and-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    align-items: center;
+    
+}
+.network-title-and-desc h1{
+    font-weight: 500;
+}
+.network-companies{
+    display: flex;
+    margin-top: 70px;
+   justify-content: center;
+   gap: 25px;
+}
+.network-companies img{
+    width: 200px;
+    height: 90px;
+    
+}
